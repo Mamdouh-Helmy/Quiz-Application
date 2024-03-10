@@ -16,36 +16,47 @@ function show(url){
 
     function getQuestions(){
         const XML = new XMLHttpRequest();
-
+    
         XML.open("GET" , url , true);
-
+    
         XML.onload = function () {
             if(this.readyState === 4 && this.status === 200){
                 let jsData = JSON.parse(this.responseText);
-                let counter = jsData.length;
-
+                let counter1 = jsData.length;
+    
+                let randomIndices = [];
+                while (randomIndices.length < 10) {
+                    let randomIndex = Math.floor(Math.random() * counter1);
+    
+                    if (!randomIndices.includes(randomIndex)) {
+                        randomIndices.push(randomIndex);
+                    }
+                }
+                let randomQuestions = randomIndices.map(index => jsData[index]);
+                let counter = randomQuestions.length;
+                
                 createBullets(counter)
-
-                addQuestionData(jsData[currentIndex] , counter);
-
+    
+                addQuestionData(randomQuestions[currentIndex] , counter);
+    
                 countDown(130 , counter)
-
+    
                 button.addEventListener('click' , function () {
-                    let right = jsData[currentIndex].right_answer;
-
+                    let right = randomQuestions[currentIndex].right_answer;
+    
                     currentIndex++;
-
+    
                     checkAnswer(right , counter);
-
+    
                     quiz_area.innerHTML = '';
                     answer.innerHTML = '';
-
-                    addQuestionData(jsData[currentIndex] , counter);
-
+    
+                    addQuestionData(randomQuestions[currentIndex] , counter);
+    
                     handelBullets();
                     clearInterval(countDownInterval)
                     countDown(130 , counter)
-
+    
                     showResults(counter)
                 })
                 re.addEventListener('click' , function () {
@@ -54,7 +65,7 @@ function show(url){
             }
         }
         XML.send()
-    }
+    }    
 
     function createBullets(num){
         countSpan.innerHTML = num;
