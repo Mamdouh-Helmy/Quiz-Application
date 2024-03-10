@@ -1,74 +1,161 @@
 [
     {
-        "title": "What does JavaScript primarily allow you to do in web development?",
-        "answer_1": "Style web pages",
-        "answer_2": "Structure web pages",
-        "answer_3": "Add interactivity to web pages",
-        "answer_4": "Define web page layouts",
-        "right_answer": "Add interactivity to web pages"
+        "title": "What is JavaScript?",
+        "answer_1": "A server-side scripting language",
+        "answer_2": "A markup language",
+        "answer_3": "A programming language",
+        "answer_4": "A database language",
+        "right_answer": "A programming language"
     },
     {
-        "title": "Which keyword is used to declare variables in JavaScript?",
-        "answer_1": "var",
-        "answer_2": "let",
+        "title": "What keyword is used to declare variables in JavaScript?",
+        "answer_1": "let",
+        "answer_2": "var",
         "answer_3": "const",
         "answer_4": "variable",
         "right_answer": "var"
     },
     {
-        "title": "What type of language is JavaScript?",
-        "answer_1": "Interpreted",
-        "answer_2": "Compiled",
-        "answer_3": "Both",
-        "answer_4": "None of the above",
-        "right_answer": "Interpreted"
+        "title": "Which operator is used to assign a value to a variable?",
+        "answer_1": "=",
+        "answer_2": "==",
+        "answer_3": ":=",
+        "answer_4": "===",
+        "right_answer": "="
     },
     {
-        "title": "Which symbol is used for comments in JavaScript?",
-        "answer_1": "//",
-        "answer_2": "--",
-        "answer_3": "{}",
-        "answer_4": "#",
-        "right_answer": "//"
+        "title": "What is the correct way to write a comment in JavaScript?",
+        "answer_1": "<!--This is a comment-->",
+        "answer_2": "//This is a comment",
+        "answer_3": "'This is a comment",
+        "answer_4": "/*This is a comment*/",
+        "right_answer": "//This is a comment"
     },
     {
-        "title": "What function is used to print content to the console in JavaScript?",
+        "title": "Which function is used to print something in the console?",
         "answer_1": "console.print()",
-        "answer_2": "log()",
-        "answer_3": "print()",
+        "answer_2": "print()",
+        "answer_3": "log()",
         "answer_4": "console.log()",
         "right_answer": "console.log()"
     },
     {
-        "title": "Which of the following is not a JavaScript data type?",
-        "answer_1": "String",
-        "answer_2": "Boolean",
-        "answer_3": "Character",
-        "answer_4": "Number",
-        "right_answer": "Character"
-    },
-    {
-        "title": "What is the purpose of the 'typeof' operator in JavaScript?",
-        "answer_1": "To determine the type of a variable",
-        "answer_2": "To check if a variable is defined",
-        "answer_3": "To assign a type to a variable",
-        "answer_4": "To convert a variable to a specific type",
-        "right_answer": "To determine the type of a variable"
-    },
-    {
         "title": "How do you declare a function in JavaScript?",
-        "answer_1": "function myFunction() {}",
-        "answer_2": "myFunction() {}",
-        "answer_3": "declare function myFunction() {}",
-        "answer_4": "var myFunction = function() {}",
-        "right_answer": "function myFunction() {}"
+        "answer_1": "function myFunction()",
+        "answer_2": "myFunction = function()",
+        "answer_3": "declare function myFunction()",
+        "answer_4": "def myFunction():",
+        "right_answer": "function myFunction()"
     },
     {
-        "title": "Which method is used to add an element to the end of an array in JavaScript?",
+        "title": "What does DOM stand for?",
+        "answer_1": "Document Object Model",
+        "answer_2": "Data Object Model",
+        "answer_3": "Document Oriented Model",
+        "answer_4": "Data Object Method",
+        "right_answer": "Document Object Model"
+    },
+    {
+        "title": "What does the 'this' keyword refer to in JavaScript?",
+        "answer_1": "The current function",
+        "answer_2": "The current object",
+        "answer_3": "The previous object",
+        "answer_4": "The next object",
+        "right_answer": "The current object"
+    },
+    {
+        "title": "What is an array in JavaScript?",
+        "answer_1": "A data type",
+        "answer_2": "A function",
+        "answer_3": "A variable",
+        "answer_4": "An object",
+        "right_answer": "An object"
+    },
+    {
+        "title": "Which method is used to add a new element to an array?",
         "answer_1": "push()",
-        "answer_2": "pop()",
-        "answer_3": "append()",
-        "answer_4": "add()",
+        "answer_2": "append()",
+        "answer_3": "insert()",
+        "answer_4": "addToEnd()",
         "right_answer": "push()"
+    },{
+        "title": "What is JavaScript used for primarily?",
+        "answer_1": "Styling web pages",
+        "answer_2": "Creating interactive web pages",
+        "answer_3": "Defining web page structure",
+        "answer_4": "Managing databases",
+        "right_answer": "Creating interactive web pages"
+    },
+    {
+        "title": "Which symbol is used for comments in JavaScript?",
+        "answer_1": "//",
+        "answer_2": "<!--",
+        "answer_3": "/*",
+        "answer_4": "#",
+        "right_answer": "//"
+    },
+    {
+        "title": "Which statement is used to exit a loop in JavaScript?",
+        "answer_1": "end",
+        "answer_2": "finish",
+        "answer_3": "break",
+        "answer_4": "exit",
+        "right_answer": "break"
+    },
+    {
+        "title": "Which built-in method adds one or more elements to the end of an array and returns the new length of the array?",
+        "answer_1": "last()",
+        "answer_2": "add()",
+        "answer_3": "push()",
+        "answer_4": "append()",
+        "right_answer": "push()"
+    },
+    {
+        "title": "Which built-in method returns the characters in a string beginning at the specified location?",
+        "answer_1": "getSubstring()",
+        "answer_2": "slice()",
+        "answer_3": "substr()",
+        "answer_4": "substring()",
+        "right_answer": "substr()"
+    },
+    {
+        "title": "Which event occurs when the user clicks on an HTML element?",
+        "answer_1": "onmouseclick",
+        "answer_2": "onchange",
+        "answer_3": "onclick",
+        "answer_4": "onmouseover",
+        "right_answer": "onclick"
+    },
+    {
+        "title": "What is the output of the following code: console.log(2 + '2')?",
+        "answer_1": "22",
+        "answer_2": "4",
+        "answer_3": "2 + '2'",
+        "answer_4": "undefined",
+        "right_answer": "22"
+    },
+    {
+        "title": "How do you define a function called 'myFunction' in JavaScript?",
+        "answer_1": "def myFunction()",
+        "answer_2": "function: myFunction()",
+        "answer_3": "function myFunction()",
+        "answer_4": "myFunction = function()",
+        "right_answer": "function myFunction()"
+    },
+    {
+        "title": "Which method is used to remove the last element from an array and return that element?",
+        "answer_1": "pop()",
+        "answer_2": "last()",
+        "answer_3": "remove()",
+        "answer_4": "delete()",
+        "right_answer": "pop()"
+    },
+    {
+        "title": "Which operator is used to concatenate strings in JavaScript?",
+        "answer_1": "+",
+        "answer_2": "-",
+        "answer_3": "*",
+        "answer_4": "/",
+        "right_answer": "+"
     }
 ]
