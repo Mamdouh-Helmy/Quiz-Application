@@ -1,0 +1,74 @@
+[
+    {
+        "title": "What does JavaScript primarily allow you to do in web development?",
+        "answer_1": "Style web pages",
+        "answer_2": "Structure web pages",
+        "answer_3": "Add interactivity to web pages",
+        "answer_4": "Define web page layouts",
+        "right_answer": "Add interactivity to web pages"
+    },
+    {
+        "title": "Which keyword is used to declare variables in JavaScript?",
+        "answer_1": "var",
+        "answer_2": "let",
+        "answer_3": "const",
+        "answer_4": "variable",
+        "right_answer": "var"
+    },
+    {
+        "title": "What type of language is JavaScript?",
+        "answer_1": "Interpreted",
+        "answer_2": "Compiled",
+        "answer_3": "Both",
+        "answer_4": "None of the above",
+        "right_answer": "Interpreted"
+    },
+    {
+        "title": "Which symbol is used for comments in JavaScript?",
+        "answer_1": "//",
+        "answer_2": "--",
+        "answer_3": "{}",
+        "answer_4": "#",
+        "right_answer": "//"
+    },
+    {
+        "title": "What function is used to print content to the console in JavaScript?",
+        "answer_1": "console.print()",
+        "answer_2": "log()",
+        "answer_3": "print()",
+        "answer_4": "console.log()",
+        "right_answer": "console.log()"
+    },
+    {
+        "title": "Which of the following is not a JavaScript data type?",
+        "answer_1": "String",
+        "answer_2": "Boolean",
+        "answer_3": "Character",
+        "answer_4": "Number",
+        "right_answer": "Character"
+    },
+    {
+        "title": "What is the purpose of the 'typeof' operator in JavaScript?",
+        "answer_1": "To determine the type of a variable",
+        "answer_2": "To check if a variable is defined",
+        "answer_3": "To assign a type to a variable",
+        "answer_4": "To convert a variable to a specific type",
+        "right_answer": "To determine the type of a variable"
+    },
+    {
+        "title": "How do you declare a function in JavaScript?",
+        "answer_1": "function myFunction() {}",
+        "answer_2": "myFunction() {}",
+        "answer_3": "declare function myFunction() {}",
+        "answer_4": "var myFunction = function() {}",
+        "right_answer": "function myFunction() {}"
+    },
+    {
+        "title": "Which method is used to add an element to the end of an array in JavaScript?",
+        "answer_1": "push()",
+        "answer_2": "pop()",
+        "answer_3": "append()",
+        "answer_4": "add()",
+        "right_answer": "push()"
+    }
+]

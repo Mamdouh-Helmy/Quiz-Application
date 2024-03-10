@@ -1,0 +1,74 @@
+[
+    {
+        "title": "What does CSS stand for?",
+        "answer_1": "Creative Style Sheets",
+        "answer_2": "Computer Style Sheets",
+        "answer_3": "Cascading Style Sheets",
+        "answer_4": "Colorful Style Sheets",
+        "right_answer": "Cascading Style Sheets"
+    },
+    {
+        "title": "How can you apply styles to a single element in HTML?",
+        "answer_1": "ID",
+        "answer_2": "Class",
+        "answer_3": "Style",
+        "answer_4": "Tag",
+        "right_answer": "ID"
+    },
+    {
+        "title": "What property is used to change the text color in CSS?",
+        "answer_1": "text-color",
+        "answer_2": "font-color",
+        "answer_3": "color",
+        "answer_4": "font-style",
+        "right_answer": "color"
+    },
+    {
+        "title": "What property is used to specify the font size in CSS?",
+        "answer_1": "ont-size",
+        "answer_2": "text-size",
+        "answer_3": "font-height",
+        "answer_4": "size",
+        "right_answer": "font-size"
+    },
+    {
+        "title": "What is the default unit of measurement for width and height in CSS?",
+        "answer_1": "Pixels (px)",
+        "answer_2": "Inches (in)",
+        "answer_3": "Points (pt)",
+        "answer_4": "Em",
+        "right_answer": "Pixels (px)"
+    },
+    {
+        "title": "What effect is applied to elements when they are converted into lists in CSS?",
+        "answer_1": "Block Effect",
+        "answer_2": "List Effect",
+        "answer_3": "Inline Effect",
+        "answer_4": "Box Model",
+        "right_answer": "List Effect"
+    },
+    {
+        "title": "What unit is used to specify the width dimension of elements in CSS?",
+        "answer_1": "Width",
+        "answer_2": "Length",
+        "answer_3": "Dimension",
+        "answer_4": "Size",
+        "right_answer": "Width"
+    },
+    {
+        "title": "What unit is used to specify the vertical dimension of elements in CSS?",
+        "answer_1": "Length",
+        "answer_2": "Height",
+        "answer_3": "Vertical",
+        "answer_4": "<aside>",
+        "right_answer": "Height"
+    },
+    {
+        "title": "How can you specify margins (spaces) for elements in CSS?",
+        "answer_1": "margin",
+        "answer_2": "spacing",
+        "answer_3": "padding",
+        "answer_4": "gap",
+        "right_answer": "margin"
+    }
+]
