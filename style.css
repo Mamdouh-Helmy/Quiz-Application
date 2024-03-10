@@ -195,6 +195,9 @@ body {
 .re button:hover {
     background-color: #00428e;
 }
+.countdown{
+    color: #0075ff;
+}
 
 @media screen and (max-width: 768px) {
     .quiz-app {
@@ -207,5 +210,28 @@ body {
     }
     body{
         font-size: 13px;
+    }
+    .contrier h1{
+        width: 100%;
+        font-size: 16px;
+    }
+    .contrier .button button{
+        font-size: 14px;
+    }
+    .quiz-area h2{
+        font-size: 15px;
+    }
+    .quiz-app .quiz-info{
+        padding: 10px;
+    }
+    .bullets{
+        flex-wrap: wrap;
+    }
+    .spans{
+        margin-bottom: 10px;
+    }
+    .countdown{
+        margin: 0 auto;
+        font-size: 19px;
     }
 }
