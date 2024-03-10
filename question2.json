@@ -1,74 +1,186 @@
 [
     {
         "title": "What does CSS stand for?",
-        "answer_1": "Creative Style Sheets",
-        "answer_2": "Computer Style Sheets",
-        "answer_3": "Cascading Style Sheets",
+        "answer_1": "Cascading Style Sheets",
+        "answer_2": "Creative Style Sheets",
+        "answer_3": "Computer Style Sheets",
         "answer_4": "Colorful Style Sheets",
         "right_answer": "Cascading Style Sheets"
     },
     {
-        "title": "How can you apply styles to a single element in HTML?",
-        "answer_1": "ID",
-        "answer_2": "Class",
-        "answer_3": "Style",
-        "answer_4": "Tag",
-        "right_answer": "ID"
-    },
-    {
-        "title": "What property is used to change the text color in CSS?",
+        "title": "Which CSS property is used to change the text color of an element?",
         "answer_1": "text-color",
-        "answer_2": "font-color",
-        "answer_3": "color",
-        "answer_4": "font-style",
+        "answer_2": "color",
+        "answer_3": "font-color",
+        "answer_4": "foreground-color",
         "right_answer": "color"
     },
     {
-        "title": "What property is used to specify the font size in CSS?",
-        "answer_1": "ont-size",
-        "answer_2": "text-size",
-        "answer_3": "font-height",
-        "answer_4": "size",
+        "title": "What is the correct CSS syntax for making all the <p> elements bold?",
+        "answer_1": "p {text-style: bold;}",
+        "answer_2": "p {font-weight: bold;}",
+        "answer_3": "p {style: bold;}",
+        "answer_4": "p {text-weight: bold;}",
+        "right_answer": "p {font-weight: bold;}"
+    },
+    {
+        "title": "Which CSS property is used to change the background color of an element?",
+        "answer_1": "bgcolor",
+        "answer_2": "background-color",
+        "answer_3": "color",
+        "answer_4": "background",
+        "right_answer": "background-color"
+    },
+    {
+        "title": "How do you add a background color for all <h1> elements?",
+        "answer_1": "h1 {background-color: #FFFFFF;}",
+        "answer_2": "h1 {bg-color: #FFFFFF;}",
+        "answer_3": "h1 {color: #FFFFFF;}",
+        "answer_4": "h1 {bg: #FFFFFF;}",
+        "right_answer": "h1 {background-color: #FFFFFF;}"
+    },
+    {
+        "title": "How do you display hyperlinks without an underline?",
+        "answer_1": "a {decoration: none;}",
+        "answer_2": "a {underline: none;}",
+        "answer_3": "a {text-decoration: none;}",
+        "answer_4": "a {decor: none;}",
+        "right_answer": "a {text-decoration: none;}"
+    },
+    {
+        "title": "Which CSS property controls the text size?",
+        "answer_1": "font-style",
+        "answer_2": "text-style",
+        "answer_3": "font-size",
+        "answer_4": "text-size",
         "right_answer": "font-size"
     },
     {
-        "title": "What is the default unit of measurement for width and height in CSS?",
-        "answer_1": "Pixels (px)",
-        "answer_2": "Inches (in)",
-        "answer_3": "Points (pt)",
-        "answer_4": "Em",
-        "right_answer": "Pixels (px)"
+        "title": "How do you make a list that lists its items with squares?",
+        "answer_1": "list-style-type: square;",
+        "answer_2": "list-type: square;",
+        "answer_3": "list: square;",
+        "answer_4": "style-type: square;",
+        "right_answer": "list-style-type: square;"
     },
     {
-        "title": "What effect is applied to elements when they are converted into lists in CSS?",
-        "answer_1": "Block Effect",
-        "answer_2": "List Effect",
-        "answer_3": "Inline Effect",
-        "answer_4": "Box Model",
-        "right_answer": "List Effect"
+        "title": "How do you round the borders of an element?",
+        "answer_1": "border-style: round;",
+        "answer_2": "border: round;",
+        "answer_3": "border-radius: 5px;",
+        "answer_4": "corner-style: round;",
+        "right_answer": "border-radius: 5px;"
     },
     {
-        "title": "What unit is used to specify the width dimension of elements in CSS?",
-        "answer_1": "Width",
-        "answer_2": "Length",
-        "answer_3": "Dimension",
-        "answer_4": "Size",
-        "right_answer": "Width"
+        "title": "Which property is used to change the font of an element?",
+        "answer_1": "font-family",
+        "answer_2": "font",
+        "answer_3": "font-style",
+        "answer_4": "typeface",
+        "right_answer": "font-family"
     },
     {
-        "title": "What unit is used to specify the vertical dimension of elements in CSS?",
-        "answer_1": "Length",
-        "answer_2": "Height",
-        "answer_3": "Vertical",
-        "answer_4": "<aside>",
-        "right_answer": "Height"
+        "title": "How do you make text italic in CSS?",
+        "answer_1": "font-style: italic;",
+        "answer_2": "text-type: italic;",
+        "answer_3": "type: italic;",
+        "answer_4": "style: italic;",
+        "right_answer": "font-style: italic;"
     },
     {
-        "title": "How can you specify margins (spaces) for elements in CSS?",
-        "answer_1": "margin",
-        "answer_2": "spacing",
-        "answer_3": "padding",
-        "answer_4": "gap",
-        "right_answer": "margin"
+        "title": "Which CSS property is used to change the space between lines of text?",
+        "answer_1": "line-spacing",
+        "answer_2": "letter-spacing",
+        "answer_3": "text-spacing",
+        "answer_4": "line-height",
+        "right_answer": "line-height"
+    },
+    {
+        "title": "What is the correct CSS syntax for making all the <p> elements center-aligned?",
+        "answer_1": "p {text-align: center;}",
+        "answer_2": "p {align: center;}",
+        "answer_3": "p {center-align: true;}",
+        "answer_4": "p {alignment: center;}",
+        "right_answer": "p {text-align: center;}"
+    },
+    {
+        "title": "How do you change the left margin of an element?",
+        "answer_1": "margin-left",
+        "answer_2": "left-margin",
+        "answer_3": "margin: left",
+        "answer_4": "left: margin",
+        "right_answer": "margin-left"
+    },
+    {
+        "title": "Which CSS property is used to control the space between individual letters?",
+        "answer_1": "line-height",
+        "answer_2": "word-spacing",
+        "answer_3": "letter-spacing",
+        "answer_4": "text-spacing",
+        "right_answer": "letter-spacing"
+    },
+    {
+        "title": "How do you change the color of text to red in CSS?",
+        "answer_1": "text-color: red;",
+        "answer_2": "color: red;",
+        "answer_3": "text: red;",
+        "answer_4": "foreground-color: red;",
+        "right_answer": "color: red;"
+    },
+    {
+        "title": "How do you make text bold in CSS?",
+        "answer_1": "text-weight: bold;",
+        "answer_2": "font-weight: bold;",
+        "answer_3": "weight: bold;",
+        "answer_4": "font-bold: true;",
+        "right_answer": "font-weight: bold;"
+    },
+    {
+        "title": "How do you make a div element into a block-level element?",
+        "answer_1": "display: block;",
+        "answer_2": "type: block;",
+        "answer_3": "div: block;",
+        "answer_4": "style: block;",
+        "right_answer": "display: block;"
+    },
+    {
+        "title": "Which CSS property is used to add shadows to text?",
+        "answer_1": "shadow",
+        "answer_2": "text-shadow",
+        "answer_3": "text-effect",
+        "answer_4": "font-shadow",
+        "right_answer": "text-shadow"
+    },
+    {
+        "title": "How do you specify an external style sheet for an HTML document?",
+        "answer_1": "<style src=\"mystyle.css\">",
+        "answer_2": "<style href=\"mystyle.css\">",
+        "answer_3": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">",
+        "answer_4": "<stylesheet>mystyle.css</stylesheet>",
+        "right_answer": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">"
+    },
+    {
+        "title": "Which CSS property is used to control the position of an element?",
+        "answer_1": "location",
+        "answer_2": "place",
+        "answer_3": "position",
+        "answer_4": "set",
+        "right_answer": "position"
+    },
+    {
+        "title": "What is the correct CSS syntax for making all the <div> elements the same size?",
+        "answer_1": "div {same-size: true;}",
+        "answer_2": "div {width: 100%; height: 100%;}",
+        "answer_3": "div {size: 100%;}",
+        "answer_4": "div {equal-size: true;}",
+        "right_answer": "div {width: 100%; height: 100%;}"
+    },
+    {
+        "title": "How do you change the text color of an element with the ID 'text' in CSS?",
+        "answer_1": "#text {color: red;}",
+        "answer_2": ".text {color: red;}",
+        "answer_3": "text {color: red;}",
+        "answer_4": "&text {color: red;}",
+        "right_answer": "#text {color: red;}"
     }
 ]
