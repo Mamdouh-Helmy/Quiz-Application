@@ -137,11 +137,11 @@ function show(url){
             bul.remove();
 
             if(rightAnswers > count / 2 && rightAnswers < count){
-                theResult = `<span class="good">Good</span>, ${rightAnswers} From ${count} IS Good`;
+                theResult = `<span class="good">Good</span>, ${rightAnswers} From ${count} IS Good 😉👍👍`;
             }else if(rightAnswers === count){
-                theResult = `<span class="good">Perfect</span>, All Answers IS Good`;
+                theResult = `<span class="good">Perfect</span>, All Answers IS Good ❤️😘🤗🤗`;
             }else{
-                theResult = `<span class="good">bad</span>, ${rightAnswers} From ${count} IS bad`;
+                theResult = `<span class="good">bad</span>, ${rightAnswers} From ${count} IS bad 😡🤡😡`;
             }
             results.innerHTML = theResult;
             re.innerHTML = `<button class="return">Return</button>`
